@@ -1,0 +1,104 @@
+.logo{
+    border-radius:40px;
+    margin-top: 40px;
+    margin-bottom:40px;
+    margin-left: 27px
+}
+
+.mesa{
+    border-radius:0px 0px 40px 40px;
+    background-color: #283056;
+    
+}
+.nome{
+    color: #000;
+    text-align: center;
+    font-family: Bowlby One;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius:40px;
+    background-color: #485C7B;
+    margin-left: 90px;
+    margin-right: 46px;
+    width: 659px;
+    height: 152px;
+    flex-shrink: 0;
+}
+.filtro{
+    background-color: #485C7B;
+    border-radius:40px;
+    margin: 44PX;
+    width: 328px;
+    height: 254px;
+    flex-shrink: 0;
+}
+.a{
+    margin-right: 50px;
+    color: rgba(0, 0, 0, 0.40);
+    text-align: center;
+    font-family: JejuMyeongjo;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.funil{
+    margin-top: 2%;
+    width: 47px;
+    height: 41px;
+    flex-shrink: 0;
+}
+.pesquisa{
+    background-color: #485C7B;
+    width: 659px;
+    height: 50px;
+    border-radius: 40px;
+    flex-shrink: 0;
+    margin-left: 90px;
+    margin-bottom: 80px
+}
+.lupa{
+    height: 33px;
+    margin:10px;
+}
+.pesquisar{
+    color: rgba(0, 0, 0, 0.40);
+    font-family: JejuMyeongjo;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.anuncios{
+    width: 154px;
+    height: 1614px;
+    flex-shrink: 0;
+    background-color: #cfcfcf;
+    border-radius: 40px;
+}
+.item{
+    width: 320px;
+    height: 388px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #485C7B;
+    margin:60px;
+}
+.barra{
+    width: 320px;
+    height: 62px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #185080;
+    margin-left:60px;
+    margin-bottom: 90px;
+    font-size:x-large;
+    font-style: bold;
+    color:white
+}
+button:hover{
+    width: 325px;
+    height: 67px;
+}
