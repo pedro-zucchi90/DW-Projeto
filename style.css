@@ -3,29 +3,33 @@
   padding: 0;
 }
 body{
-  background-color: #e9e5e5;
+  background-color: #fff;
 }
 header {
-  background-color: #cbcbcb;
-  width: 1520px;
+  background-color: #fff;
+  width: 1480px;
   height: 200px;
 }
 
 .logo {
-  width: 150px;
-  height: 150px;
-  margin-top: 20px;
+  width: 40%;
+  height: 40%;
+  flex-shrink: 0;
   margin-left: 30px;
 }
 .banner{
-  width: 1520px;
-  height: 340px;
+  width: 1480px;
+  height: 70%;
+  flex-shrink: 0;
 }
 
 .card {
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 5px;
+  margin:40px;
+  height:580;
+  width:360;
 }
 
 .card:hover {
@@ -42,9 +46,40 @@ header {
 
 .uno{
   margin-left: 90px;
+  width:360px;
 }
 
 .fiat{
   width: px;
-height: 328px;
+  height: 328px;
+  
+}
+.pa{
+  font-size:xx-large;
+  margin-left: 127px;
+}
+.canto{
+  margin-left:47px;
+  font-size:87px;
+}
+.lupa{
+  margin-left:320px;
+}
+.produtos{
+  margin-bottom:80px;
+}
+.logo2{
+  width: 324px;
+  height: 251px;
+  flex-shrink: 0;
+}
+.rds{
+  width: 50%;
+  height: 50%;
+  flex-shrink: 0;
+}
+.rodape{
+  font-size:29px;
+  margin-right:100px;
+  margin-left:30px
 }
