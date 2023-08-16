@@ -1,104 +1,143 @@
-.logo{
-    border-radius:40px;
-    margin-top: 40px;
-    margin-bottom:40px;
-    margin-left: 27px
+html{
+  width: 1920px;
 }
 
-.mesa{
-    border-radius:0px 0px 40px 40px;
-    background-color: #283056;
-    
+* {
+  margin: 0;
+  padding: 0;
 }
-.nome{
-    color: #000;
-    text-align: center;
-    font-family: Bowlby One;
-    font-size: 80px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    border-radius:40px;
-    background-color: #485C7B;
-    margin-left: 90px;
-    margin-right: 46px;
-    width: 659px;
-    height: 152px;
-    flex-shrink: 0;
+
+body {
+  background-color: #e9e5e5;
 }
-.filtro{
-    background-color: #485C7B;
-    border-radius:40px;
-    margin: 44PX;
-    width: 328px;
-    height: 254px;
-    flex-shrink: 0;
+
+header {
+  background-color: #cbcbcb;
+  width: 1910px;
+  height: 200px; 
 }
-.a{
-    margin-right: 50px;
-    color: rgba(0, 0, 0, 0.40);
-    text-align: center;
-    font-family: JejuMyeongjo;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+
+.logo {
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+  margin-left: 30px;
 }
-.funil{
-    margin-top: 2%;
-    width: 47px;
-    height: 41px;
-    flex-shrink: 0;
+
+.banner {
+  width: 1910px;
+  height: 390px;
 }
-.pesquisa{
-    background-color: #485C7B;
-    width: 659px;
-    height: 50px;
-    border-radius: 40px;
-    flex-shrink: 0;
-    margin-left: 90px;
-    margin-bottom: 80px
+
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
 }
-.lupa{
-    height: 33px;
-    margin:10px;
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
 }
-.pesquisar{
-    color: rgba(0, 0, 0, 0.40);
-    font-family: JejuMyeongjo;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+
+.card {
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  border-radius: 5px;
+  height: 100px;
+  width: 67px;
+  padding: 10px;
+  /* Adicione um espaçamento interno para o conteúdo do card */
+  margin-right: 50px;
+  /* Define a margem à direita do card */
 }
-.anuncios{
-    width: 154px;
-    height: 1614px;
-    flex-shrink: 0;
-    background-color: #cfcfcf;
-    border-radius: 40px;
+
+
+.card:last-child {
+  margin-right: 0;
 }
-.item{
-    width: 320px;
-    height: 388px;
-    flex-shrink: 0;
-    border-radius: 20px;
-    background: #485C7B;
-    margin:60px;
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
-.barra{
-    width: 320px;
-    height: 62px;
-    flex-shrink: 0;
-    border-radius: 25px;
-    background: #185080;
-    margin-left:60px;
-    margin-bottom: 90px;
-    font-size:x-large;
-    font-style: bold;
-    color:white
+
+.container1 {
+  padding: 2px 16px;
 }
-button:hover{
-    width: 325px;
-    height: 67px;
+
+.imagemcarro1 {
+  border-radius: 5px 5px 0 0;
+}
+
+h4 {
+  text-align: center;
+}
+
+@font-face {
+  font-family: "belgiano";
+  src: url('Belgiano\ Serif\ 2.ttf');
+}
+
+.disp {
+  font-family: "belgiano";
+}
+
+div[class*=box] {
+  height: 33.33%;
+  width: 10%; 
+  display: flex;
+  
+}
+.box-3{
+  text-align:center;
+}
+
+.btn {
+  line-height: 50px;
+  height: 50px;
+  width: 250px;
+  cursor: pointer;
+}
+
+.btn-three {
+  color: #000000;
+  transition: all 0.5s;
+  position: relative;
+}
+.btn-three::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+.btn-three:hover::before {
+  opacity: 0 ;
+  transform: scale(0.5,0.5);
+}
+.btn-three::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transform: scale(1.2,1.2);
+}
+.btn-three:hover::after {
+  opacity: 1;
+  transform: scale(1,1);
+}
+
+hr{
+  margin:50px 0% 50px 0%;
 }
